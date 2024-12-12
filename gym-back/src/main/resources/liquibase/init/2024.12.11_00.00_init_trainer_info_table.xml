@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+
+    <changeSet id="3" author="k.mitsko">
+        <createTable tableName="trainer_info">
+            <column name="id" type="uuid">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="specialisation" type="varchar(255)"/>
+            <column name="education" type="varchar(255)"/>
+            <column name="achievement" type="varchar(255)"/>
+            <column name="experience" type="varchar(255)"/>
+            <column name="instagram" type="varchar(255)"/>
+            <column name="phone" type="varchar(255)"/>
+            <column name="position" type="varchar(255)"/>
+            <column name="trainer" type="uuid"/>
+        </createTable>
+
+        <addForeignKeyConstraint baseTableName="trainer_info" baseColumnNames="trainer" constraintName="fk_trainer_info_trainer"
+                                 referencedTableName="users"
+                                 referencedColumnNames="id"/>
+
+        <insert tableName="trainer_info">
+            <column name="id" value="7d0a9782-5b66-4d7f-9f39-3106ca51a748"/>
+            <column name="specialisation" value="Силовой тренинг, бокс, набор мышечной массы, рекомендации по питанию, индивидуальный подбор упражнений и постановка техники выполнения."/>
+            <column name="education" value="Могилевский Государственный Университет им. А.А.Кулешова, Специальная подготовка / Физическая культура."/>
+            <column name="achievement" value="Мастер спорта по тяжёлой атлетике, Чемпион Европы 2002г. Призер Чемпионата Европы 2003г."/>
+            <column name="experience" value="с 2013 года"/>
+            <column name="instagram" value="@Instagram"/>
+            <column name="phone" value="+375 (29) 111-22-33"/>
+            <column name="position" value="Премиум тренер"/>
+            <column name="trainer" value="d7681da5-9822-4ccc-b336-12573618e8b0"/>
+        </insert>
+
+        <insert tableName="trainer_info">
+            <column name="id" value="e2217db4-e655-44ca-a557-7a8518cce236"/>
+            <column name="specialisation" value="Силовой тренинг, набор мышечной массы, рекомендации по питанию, индивидуальный подбор упражнений и постановка техники выполнения."/>
+            <column name="education" value="Могилевский Государственный Университет им. А.А.Кулешова, Специальная подготовка / Физическая культура."/>
+            <column name="achievement" value="Мастер спорта по тяжёлой атлетике."/>
+            <column name="experience" value="с 2015 года"/>
+            <column name="instagram" value="@Instagram"/>
+            <column name="phone" value="+375 (29) 111-22-33"/>
+            <column name="position" value="Премиум тренер"/>
+            <column name="trainer" value="7d1e3821-97d7-4bd1-8301-b6a7457d75ed"/>
+        </insert>
+
+        <insert tableName="trainer_info">
+            <column name="id" value="2a35539a-3043-4d20-a1ed-9814cc5204cc"/>
+            <column name="specialisation" value="Коррекция фигуры, уменьшение объема жировой ткани, рекомендации по питанию, индивидуальный подбор упражнений и постановка техники выполнения, исправление осанки."/>
+            <column name="education" value="Могилевский Государственный Университет им. А.А.Кулешова, Специальная подготовка / Физическая культура."/>
+            <column name="achievement" value="Мастер спорта по легкой атлетике."/>
+            <column name="experience" value="с 2010 года"/>
+            <column name="instagram" value="@Instagram"/>
+            <column name="phone" value="+375 (29) 111-22-33"/>
+            <column name="position" value="Премиум тренер"/>
+            <column name="trainer" value="302c2630-e523-4b5a-87dc-3fe79b305015"/>
+        </insert>
+
+        <insert tableName="trainer_info">
+            <column name="id" value="d63734f8-ee33-4d48-a1f5-0c82635fbf9f"/>
+            <column name="specialisation" value="Коррекция фигуры, уменьшение объема жировой ткани, рекомендации по питанию, индивидуальный подбор упражнений и постановка техники выполнения."/>
+            <column name="education" value="Могилевский Государственный Университет им. А.А.Кулешова, Специальная подготовка / Физическая культура."/>
+            <column name="achievement" value="Мастер спорта."/>
+            <column name="experience" value="с 2020 года"/>
+            <column name="instagram" value="@Instagram"/>
+            <column name="phone" value="+375 (29) 111-22-33"/>
+            <column name="position" value="Премиум тренер"/>
+            <column name="trainer" value="fe0c588d-6acb-4c16-9da1-36a2f5ab8ee1"/>
+        </insert>
+
+        <insert tableName="trainer_info">
+            <column name="id" value="c83b81db-a9f7-445e-8291-ae7009d78cdf"/>
+            <column name="specialisation" value="Коррекция фигуры, уменьшение объема жировой ткани, рекомендации по питанию, индивидуальный подбор упражнений и постановка техники выполнения."/>
+            <column name="education" value="Могилевский Государственный Университет им. А.А.Кулешова, Специальная подготовка / Физическая культура."/>
+            <column name="achievement" value="Мастер спорта по легкой атлетике."/>
+            <column name="experience" value="с 2018 года"/>
+            <column name="instagram" value="@Instagram"/>
+            <column name="phone" value="+375 (29) 111-22-33"/>
+            <column name="position" value="Премиум тренер"/>
+            <column name="trainer" value="0d4dadb1-b592-4065-91b4-e73b3e64ebc2"/>
+        </insert>
+
+        <insert tableName="trainer_info">
+            <column name="id" value="39437b1b-08eb-4e70-96c2-ba74a2233d1c"/>
+            <column name="specialisation" value="Силовой тренинг, бокс, набор мышечной массы, рекомендации по питанию, индивидуальный подбор упражнений и постановка техники выполнения."/>
+            <column name="education" value="Могилевский Государственный Университет им. А.А.Кулешова, Специальная подготовка / Физическая культура."/>
+            <column name="achievement" value="Мастер спорта по тяжёлой атлетике."/>
+            <column name="experience" value="с 2009 года"/>
+            <column name="instagram" value="@Instagram"/>
+            <column name="phone" value="+375 (29) 111-22-33"/>
+            <column name="position" value="Премиум тренер"/>
+            <column name="trainer" value="369a51c0-42b0-42fa-9626-934bf0954c5f"/>
+        </insert>
+
+        <insert tableName="trainer_info">
+            <column name="id" value="6a8bb29d-a34c-43b1-951a-b05774502d37"/>
+            <column name="specialisation" value="Силовой тренинг, набор мышечной массы, рекомендации по питанию, индивидуальный подбор упражнений и постановка техники выполнения."/>
+            <column name="education" value="Могилевский Государственный Университет им. А.А.Кулешова, Специальная подготовка / Физическая культура."/>
+            <column name="achievement" value="Мастер спорта"/>
+            <column name="experience" value="с 2000 года"/>
+            <column name="instagram" value="@Instagram"/>
+            <column name="phone" value="+375 (29) 111-22-33"/>
+            <column name="position" value="Премиум тренер"/>
+            <column name="trainer" value="913ba613-e6a0-49bc-a127-9d0cff6c46cc"/>
+        </insert>
+
+        <insert tableName="trainer_info">
+            <column name="id" value="ca38a4ac-fea5-4724-9c13-6fea3392fd52"/>
+            <column name="specialisation" value="Силовой тренинг, кикбоксинг, набор мышечной массы, рекомендации по питанию, индивидуальный подбор упражнений и постановка техники выполнения."/>
+            <column name="education" value="Могилевский Государственный Университет им. А.А.Кулешова, Специальная подготовка / Физическая культура."/>
+            <column name="achievement" value="Мастер спорта"/>
+            <column name="experience" value="с 2011 года"/>
+            <column name="instagram" value="@Instagram"/>
+            <column name="phone" value="+375 (29) 111-22-33"/>
+            <column name="position" value="Премиум тренер"/>
+            <column name="trainer" value="a329cd80-c512-4e9e-bcaa-6833bca0bf3d"/>
+        </insert>
+
+    </changeSet>
+</databaseChangeLog>

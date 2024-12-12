@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: gym-back
+  datasource:
+    url: jdbc:postgresql://localhost:5432/gym
+    username: postgres
+    password: postgres
+
+app:
+  liquibase:
+    change-log: classpath:liquibase/master.xml
+    default-schema: public
+    contexts: development
