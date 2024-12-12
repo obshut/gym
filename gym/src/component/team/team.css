@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container__team{
+    /*background-color: #004f4f;*/
+    background-color: #002424;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 120px;
+}
+
+.card__team{
+    position: relative;
+    width: 248px;
+    height: 350px;
+    border-radius: 24px;
+    display: flex;
+    align-items: flex-end;
+}
+
+ .one {
+    width: 248px;
+    height: 350px;
+    border-radius: 24px;
+}
+
+
+.team{
+    display: flex;
+    width: 219px;
+    height: 57px;
+    color: #ffffff;
+    font-family: "Dela Gothic One";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 56.76px;
+}
+
+
+.name{
+    height: 20px;
+    color: #33b0aa;
+    font-family: "Dela Gothic One";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.87px;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+
+.trener{
+    width: 208px;
+    height: 39.74px;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19.87px;
+}
+
+.img__team{
+    width: 248px;
+    height: 139.28px;
+}
+
+.tex{
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.text__team{
+    position: absolute;  /* Позиционируем блок с текстом поверх изображения */
+    top: 71.5%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    width: 248px;
+    height: 100px;
+    background: rgba(255,255,255,0.2);
+    background-blend-mode: normal;
+    backdrop-filter: blur(30px);
+    border-radius: 24px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.button__nav{
+    text-decoration: none;
+    background-color: inherit;
+    border: inherit;
+}

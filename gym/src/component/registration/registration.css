@@ -1,0 +1,84 @@
+/* Контейнер для всей формы регистрации */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.register__div{
+    background-image: url("../../img/Bg2.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+}
+
+.registration {
+    background-image: url("../../img/Bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+.register__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Стили для формы */
+  .register__form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Заголовок формы */
+  .register__form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Стили для полей ввода */
+  .input__field {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* При фокусе поле ввода становится синим */
+  .input__field:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Стили для кнопки "Зарегистрироваться" */
+  .submit__btn {
+    padding: 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /* Изменение цвета кнопки при наведении */
+  .submit__btn:hover {
+    background-color: #218838;
+  }
+  
+  /* Сообщение об ошибке */
+  .error__message {
+    color: red;
+    font-size: 12px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  

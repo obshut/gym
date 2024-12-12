@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.cards__text{
+    width: 576px;
+    height: 57px;
+    color: #ffffff;
+    font-family: "Dela Gothic One";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 56.76px;
+}
+
+.club__card{
+    /*background-color: #004f4f;*/
+    background-color: #002424;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 120px;
+}
+
+.cards{
+    max-width: 85%;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card{
+    width: 192px;
+    height: 192px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #004f4f;
+    justify-content: space-evenly;
+}
+
+.embed{
+    display: flex;
+    width: 87px;
+    height: 92px;
+}
+
+.card__text{
+    display: flex;
+    width: 150px;
+    height: 45.4px;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22.7px;
+    text-align: center;
+    justify-content: center;
+}
+
+.club__span{
+    color: #33b0aa;
+}

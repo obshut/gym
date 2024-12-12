@@ -1,0 +1,86 @@
+/* Контейнер для всей формы */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.auth__div{
+    background-image: url("../../img/Bg2.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+}
+
+.authorization{
+    background-image: url("../../img/Bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.auth__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Стили для формы */
+  .auth__form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Стили для полей ввода */
+  .input__field {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* При фокусе поле ввода становится синим */
+  .input__field:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Сообщение об ошибке */
+  .error__message {
+    color: red;
+    font-size: 12px;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+.text__decoration{
+    text-decoration: none;
+    color: black;
+    padding: 5px 5px;
+}
+
+  .button__entrance{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .button__entrance:hover{
+    cursor: pointer;
+  }
+
+  .registration__button{
+    text-decoration: none;
+    text-align: center;
+  }
+
+
+
+
+  

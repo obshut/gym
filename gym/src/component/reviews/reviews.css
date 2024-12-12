@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.swiper-wrapper {
+    margin-left: 112px;
+}
+
+.reviews__div {
+    padding-top: 40px;
+    /*background-color: #004f4f;*/
+    background-color: #002424;
+    padding-bottom: 80px;
+}
+
+.swiper {
+    max-width: 1117px;
+    width: 1117px;
+}
+
+.reviews__h2 {
+    margin: 0 auto;
+    width: 195px;
+    height: 58px;
+    color: #ffffff;
+    font-family: "Dela Gothic One", serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 57.92px;
+}
+
+.reviews {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+    height: 250px;
+    width: 340px;
+    background: rgba(255, 255, 255, 0.2);
+    background-blend-mode: normal;
+    -webkit-backdrop-filter: blur(30px);
+    backdrop-filter: blur(30px);
+    border-radius: 24px;
+}
+
+.feedback__name h3 {
+    display: flex;
+    opacity: 0.8;
+    height: 29px;
+    color: #ffffff;
+    font-family: Montserrat, serif;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 28.38px;
+    text-transform: uppercase;
+}
+
+.feedback__feedback {
+    margin-top: 16px;
+}
+
+.feedback__feedback p {
+    display: flex;
+    width: 280px;
+    height: 147.2px;
+    color: #ffffff;
+    font-family: Montserrat, serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+}
+
+.feedback__div {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.feedback__form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.feedback__input {
+    display: flex;
+    width: 380px;
+    border-radius: 8px;
+    height: 35px;
+    background-color: #0f3f3f;
+    border: 1px solid;
+
+    color: #ffffff;
+    text-align: center;
+    font-family: Montserrat, serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+}
+
+.feedback__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    border-radius: 7px;
+    border: 1px solid;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 150px;
+
+    color: #ffffff;
+    background-color: #0f3f3f;
+    font-family: Montserrat, serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+}
+
+.feedback__button:hover{
+    cursor: pointer;
+}
+
+.feedback__textarea {
+    padding: 5px 5px;
+    margin-top: 10px;
+    width: 370px;
+    border-radius: 8px;
+    height: 147px;
+    background-color: #0f3f3f;
+    border: 1px solid;
+    color: #ffffff;
+    resize: none;
+
+
+    font-family: Montserrat, serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+}
+
+.ReactModal__Overlay {
+    z-index: 5;
+    border: 0;
+    background: rgba(255, 255, 255, 0.25);
+}
+
+.ReactModal__Overlay--after-open {
+    z-index: 5;
+    border: 0;
+    background: rgba(255, 255, 255, 0.25);
+}
+
+.window {
+    height: 100vh;
+    border: 0;
+    background: rgba(255, 255, 255, 0);
+}
+
+.modal_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.2);
+    background-blend-mode: normal;
+    color: white;
+    border: 0;
+    border-radius: 8px;
+}
+
+.modal_button:hover {
+    cursor: pointer;
+    background: rgba(157, 157, 157, 0.2);
+    background-blend-mode: normal;
+}
+
+.slider {
+    width: 340px;
+}
+
+.feedback__div2 {
+    display: flex;
+    border-radius: 12px;
+    width: 430px;
+    background-color: rgba(255, 255, 255, 0.4);
+    height: 330px;
+}

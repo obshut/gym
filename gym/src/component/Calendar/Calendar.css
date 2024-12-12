@@ -1,0 +1,146 @@
+  .calendar__container {
+    background-image: url("../../img/Bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: black;
+  }
+
+  .calendar__div{
+    background-image: url("../../img/Bg2.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    min-height: 500px;
+  }
+  
+  .navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .navigation h2,
+  .navigation h3 {
+    margin: 0;
+    color: white;
+  }
+  
+  .calendar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    width: 80%;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  
+  .day {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    width: 200px;
+  }
+  
+  .day h2 {
+    margin: 0 0 10px;
+    color: white;
+    font-family: "Dela Gothic One";
+    font-weight: 400;
+  }
+  
+  .time-slot {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    color: black;
+    font-family: "Dela Gothic One";
+    font-weight: 400;
+  }
+  
+  .time-slot.selected {
+    background-color: #add8e6;
+  }
+  
+  .time-slot:hover:not(.selected) {
+    background-color: #d3d3d3;
+  }
+  
+  .save-section {
+    margin: 20px 0;
+  }
+  
+  .save-section button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .bookings {
+    margin-top: 20px;
+  }
+  
+  .bookings ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .bookings li {
+    margin-top: 5px;
+    color: white;
+    font-family: "Dela Gothic One";
+    font-weight: 400;
+    font-size: 20px;
+    padding-bottom: 5px;
+  }
+    
+  .bookings h2 {
+    margin-top: 5px;
+    color: white;
+    font-family: "Dela Gothic One";
+    font-weight: 400;
+    font-size: 25px;
+  }
+
+  .bookings p {
+    margin-top: 5px;
+    color: white;
+    font-family: "Dela Gothic One";
+    font-weight: 400;
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+
+  .moth__button{
+    height: 45px;
+    width: 8%;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 7px;
+    border: 1px solid;
+    background-color: #33b0aa;
+    cursor: pointer;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 600;
+  }
+
+  .calendar__sapisei{
+    color: white;
+    font-family: "Dela Gothic One";
+    font-weight: 400;
+    margin-bottom: 40px;
+  }
+
+  .navigation h2, h3{
+    color: white;
+    font-family: "Dela Gothic One";
+    font-weight: 400;
+  }

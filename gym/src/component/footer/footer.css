@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.footer__container{
+    /*background-color: #013f3f;*/
+    background-color: #050a04;
+}
+
+.footer__div{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.footer__time{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__moreon {
+    display: flex;
+    flex-direction: column;
+    color: #33b0aa;
+    font-family: "Dela Gothic One", serif;
+    font-size: 20px;
+    width: 117px;
+    height: 50px;
+    text-align: center;
+}
+
+.footer__moreon span{
+    font-size: 10px;
+    color: white;
+}
+
+.ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.ul li{
+    display: flex;
+    color: rgba(255,255,255,0.8);
+    font-family: Montserrat, serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+}
+
+.time{
+    margin-top: 10px;
+    width: 112px;
+    height: 20px;
+}
+
+.weekdays{
+    width: 141px;
+    height: 20px;
+    color: rgba(255,255,255,0.8);
+    font-family: Montserrat, serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+    margin-top: 17px;
+}
+
+.pool{
+    width: 157px;
+    height: 20px;
+}
+
+.weekend{
+    margin-top: 17px;
+    width: 172px;
+    height: 20px;
+}
+
+.pool2{
+    width: 158px;
+    height: 20px;
+}
+
+.gym{
+    display: flex;
+    flex-direction: column;
+}
+
+.gym ul{
+    width: 184px;
+    height: 136px;
+    gap: 9px;
+}
+
+.adress{
+    width: 197px;
+}
+
+.gym2 ul{
+    height: 100px;
+}
+
+.download p{
+    width: 160px;
+    height: 20px;
+    color: rgba(255,255,255,0.8);
+    font-family: Montserrat, serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19.6px;
+}
+
+.footer__footer ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer__img{
+    margin-top: 9px;
+}
+
+.footer__market{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin-right: 30px;
+}
+
+.footer__store{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+
+.application__img2{
+    text-align: center;
+    padding-bottom: 20px;
+}

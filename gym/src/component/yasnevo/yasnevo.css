@@ -1,0 +1,47 @@
+.yasnevo__container{
+    max-width: 100%;
+}
+
+.yasnevo__text{
+    margin: 0 auto;
+    margin-top: 120px;
+    max-width: 1300px;
+    padding-bottom: 80px;
+}
+
+.yasnevo__text h2{
+    text-align: center;
+    margin: 0 auto;
+    color: rgb(51, 176, 170);
+    width: 566px;
+    height: 58px;
+    font-family: "Dela Gothic One";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 57.92px;
+    margin-bottom: 39px;
+}
+
+
+.yasnevo__p{
+    margin: 0 auto;
+    max-width: 1080px;
+    border-radius: 24px;
+    background: linear-gradient(180deg, rgba(255,255,255,0.2) 0%, rgba(181,181,181,0.2) 100%);
+    background-blend-mode: normal;
+    backdrop-filter: blur(30px);
+}
+
+.p2{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    opacity: 0.8;
+    width: 1000px;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 19.6px;
+    text-align: justify;
+}

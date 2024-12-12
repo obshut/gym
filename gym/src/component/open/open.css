@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.open__div{
+    background-image: url("../../img/Bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.container{
+    max-width: 100%;
+    height: 600px;
+    background-image: url("../../img/Bg2.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.text{
+
+    padding-top: 60px;
+    margin-bottom: 38.48px;
+}
+
+.h2{
+    width: 647px;
+    height: 230px;
+    color: white;
+    font-family: "Dela Gothic One";
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 76.63px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.moreon{
+    color: #33b0aa;
+}
+
+.p{
+    margin: 0 auto;
+    margin-top: 21px;
+    width: 628px;
+    height: 113.52px;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28.38px;
+    text-align: center;
+}
+
+.button{
+    margin: 0 auto;
+    border-radius: 12px;
+    width: 216px;
+    height: 55px;
+    background-color: #33b0aa;
+    box-shadow: 0px 11.6px 23.2px rgba(8,35,34,0.56),
+    inset 0px 5.95px 5.95px #36ece3,
+    inset -0px -5.95px 5.95px #176561;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.button p {
+    width: 156px;
+    height: 23px;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22.7px;
+    text-align: center;
+}
+
+.open__button{
+    padding: 15px 30px;
+    text-decoration: none;
+}

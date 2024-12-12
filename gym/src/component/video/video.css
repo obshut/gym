@@ -1,0 +1,36 @@
+.video__div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /*background-color: #004f4f;*/
+    background-color: #002424;
+    margin: 0 auto;
+    padding-top: 120px;
+}
+
+.video__text{
+    display: flex;
+    margin: 0 auto;
+    width: 729px;
+    height: 57px;
+    color: #ffffff;
+    font-family: "Dela Gothic One";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 56.76px;
+    margin-bottom: 40px;
+}
+
+.video__span{
+    color: #33b0aa;
+    margin-left: 10px;
+}
+
+
+.video__player {
+    width: 1080px;
+    height: 590px;
+    display: flex;
+    justify-content: center;
+}
+

@@ -1,0 +1,23 @@
+@media only screen and (max-width: 860px) {
+    .team {
+        width: 186px;
+        height: 48px;
+        font-size: 35px;
+        line-height: 46.76px;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .card__team {
+        width: 230px;
+        height: 290px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .team {
+        width: 157px;
+        height: 48px;
+        font-size: 29px;
+    }
+}

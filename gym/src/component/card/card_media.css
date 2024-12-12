@@ -1,0 +1,19 @@
+@media only screen and (max-width: 860px) {
+    .cards__text {
+        width: 504px;
+        height: 47px;
+        font-size: 35px;
+        line-height: 46.76px;
+    }
+
+}
+
+@media only screen and (max-width: 570px) {
+    .cards__text {
+        width: 259px;
+        height: 71px;
+        font-size: 29px;
+        line-height: 32.76px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,134 @@
+@media only screen and (max-width: 1150px) {
+    .about p {
+        width: 482px;
+        font-size: 15px;
+    }
+
+    .trener__div {
+        margin-left: 100px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .trener__photo img {
+        max-width: 320px;
+    }
+
+    .trener__div {
+        margin-left: 0;
+    }
+
+    .info__trener h2 {
+        font-size: 37px;
+        line-height: 57.92px;
+    }
+
+    .about p {
+        width: 400px;
+        font-size: 15px;
+        line-height: 20.4px;
+    }
+}
+
+@media only screen and (max-width: 890px) {
+    .about p {
+        width: 315px;
+        font-size: 15px;
+        line-height: 20.4px;
+    }
+
+    .info__trener h2 {
+        font-size: 28px;
+        height: 54px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .trener__div {
+        gap: 40px;
+    }
+
+    .info__trener h2 {
+        font-size: 27px;
+        height: 51px;
+    }
+
+    .about p {
+        width: 290px;
+        font-size: 14px;
+        line-height: 20.4px;
+    }
+
+    .info__trener h3 {
+        padding-top: 28.8px;
+        width: 188px;
+        height: 27px;
+        color: #ffffff;
+        font-family: Montserrat, serif;
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 28.38px;
+        text-transform: uppercase;
+    }
+
+    .trener__photo img {
+        max-width: 300px;
+    }
+}
+
+@media only screen and (max-width: 690px) {
+    .trener__photo img {
+        max-width: 260px;
+    }
+
+    .about p {
+        width: 250px;
+        font-size: 14px;
+        line-height: 20.4px;
+    }
+}
+
+@media only screen and (max-width: 650px){
+    .info__trener h2 {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 590px) {
+
+    .info__trener h2 {
+        height: 48px;
+    }
+
+    .trener__photo img {
+        max-width: 220px;
+    }
+
+    .about p {
+        width: 216px;
+        line-height: 19.4px;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+
+    .info__trener h2 {
+        font-size: 25px;
+        height: 46px;
+    }
+
+
+    .about p {
+        width: 210px;
+        font-size: 13px;
+    }
+
+    .trener__div {
+        gap: 20px;
+        padding-top: 70px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+}

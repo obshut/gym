@@ -1,0 +1,99 @@
+@media only screen and (max-width: 1200px) {
+    .application__phone {
+        height: 500.89px;
+    }
+}
+
+@media only screen and (max-width: 1120px) {
+    .application__phone {
+        height: 475.89px;
+    }
+
+    .application__h2 {
+        height: 93.52px;
+        font-size: 36px;
+        line-height: 47.76px;
+    }
+
+    .application__p {
+        max-width: 400px;
+        height: 200px;
+        font-size: 16px;
+        line-height: 19.5px;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .application__phone {
+        height: 450.89px;
+    }
+
+    .application__h2 {
+        height: 72.52px;
+        font-size: 33px;
+        line-height: 38.76px;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .application__phone {
+        height: 420.89px;
+    }
+
+    .application__h2 {
+        font-size: 31px;
+        line-height: 37.76px;
+    }
+}
+
+@media only screen and (max-width: 890px) {
+    .application__h2 {
+        height: 58.52px;
+        font-size: 32px;
+        line-height: 34.76px;
+    }
+
+    .application__phone {
+        height: 380.89px;
+    }
+}
+
+@media only screen and (max-width: 860px) {
+    .application__flex {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .application__phone {
+        height: 320.89px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .application__h2 {
+        height: 65.52px;
+        font-size: 29px;
+        line-height: 30.76px;
+    }
+
+    .application__p {
+        max-width: 320px;
+        height: 265px;
+        font-size: 13px;
+        line-height: 19.5px;
+    }
+}
+
+@media  only screen and (max-width: 380px) {
+    .application__phone {
+        height: 240.89px;
+    }
+    .application__p {
+        max-width: 230px;
+    }
+}

@@ -1,0 +1,141 @@
+@media only screen and (max-width: 1024px) {
+    .h2 {
+        font-size: 40px;
+        width: 480px;
+        height: 180px;
+        line-height: 60.63px;
+    }
+
+    .p {
+        font-size: 18px;
+    }
+
+}
+
+@media only screen and (max-width: 830px) {
+
+    .container {
+        height: 530px;
+    }
+
+    .h2 {
+        line-height: 45.6px;
+        font-size: 34px;
+        width: 408px;
+        height: 130px;
+    }
+
+    .p {
+        width: 487px;
+        font-size: 15px;
+    }
+
+    .button {
+        width: 200px;
+        height: 45px;
+    }
+
+    .open__button {
+        padding: 11px 21px;
+    }
+
+    .button a p {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .h2 {
+        font-size: 30px;
+        width: 360px;
+    }
+
+    .p {
+        width: 457px;
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+
+    .menu__box {
+        width: 230px;
+    }
+
+    .menu__item {
+        font-size: 17px;
+    }
+
+    .p {
+        width: 391px;
+        line-height: 25.38px;
+        font-size: 12px;
+    }
+
+    .button {
+        width: 180px;
+        height: 40px;
+    }
+
+    .open__button {
+        padding: 8px 10px;
+    }
+
+    .button a p {
+        font-size: 12px;
+    }
+
+    .text {
+        margin-bottom: 0;
+    }
+
+    .container {
+        height: 475px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .h2 {
+        font-size: 26px;
+        line-height: 40.6px;
+        width: 312px;
+    }
+
+    .p {
+        width: 345px;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .h2 {
+        font-size: 23px;
+        line-height: 35.6px;
+        width: 276px;
+    }
+
+    .p {
+        width: 294px;
+        margin-top: -10px;
+        line-height: 20.38px;
+        font-size: 10px;
+    }
+
+    .container {
+        height: 410px;
+    }
+
+    .menu__item {
+        font-size: 12px;
+    }
+
+    .menu__box {
+        width: 204px;
+        height: 13%;
+    }
+
+    .menu__btn {
+        width: 20px;
+        height: 20px;
+    }
+}

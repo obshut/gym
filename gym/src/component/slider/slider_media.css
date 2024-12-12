@@ -1,0 +1,150 @@
+@media only screen and (max-width: 1200px) {
+    .swiper {
+        max-width: 1060px;
+    }
+
+    .slide {
+        max-height: 320px;
+        max-width: 320px;
+    }
+
+    .swiper-wrapper {
+        margin-left: 100px;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    .swiper {
+        max-width: 900px;
+    }
+
+    .swiper-wrapper {
+        margin-left: 60px;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .swiper-wrapper {
+        margin-left: 59px;
+    }
+}
+
+@media only screen and (max-width: 901px) {
+    .swiper {
+        max-width: 750px;
+    }
+
+    .swiper-wrapper {
+        margin-left: 15px;
+    }
+}
+
+@media only screen and (max-width: 860px) {
+    .stock {
+        width: 133px;
+        height: 51px;
+        font-size: 35px;
+        line-height: 56.76px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .slide {
+        max-height: 300px;
+        max-width: 300px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .swiper {
+        max-width: 580px;
+    }
+
+    .slide {
+        max-height: 280px;
+    }
+
+    .feedback__feedback p {
+        width: 220px;
+        height: 147.2px;
+        font-size: 13px;
+        line-height: 19.6px;
+    }
+
+    .feedback__name h3 {
+        height: 23px;
+        font-size: 18px;
+        line-height: 23.38px;
+        width: 100%;
+    }
+
+    .reviews {
+        width: 280px;
+    }
+
+    .swiper-wrapper {
+        margin-left: 3px;
+    }
+
+}
+
+@media only screen and (max-width: 590px) {
+    .reviews {
+        width: 240px;
+    }
+
+    .feedback__name h3 {
+        height: 19px;
+        font-size: 17px;
+        line-height: 19.38px;
+        width: 100%;
+    }
+
+    .feedback__feedback p {
+        width: 200px;
+        height: 147.2px;
+        font-size: 12px;
+        line-height: 18.6px;
+    }
+
+    .swiper-wrapper {
+        margin-left: 25px;
+    }
+
+    .slide {
+        max-height: 230px;
+        max-width: 300px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .slide {
+        max-height: 210px;
+        max-width: 300px;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+
+    .swiper-wrapper {
+        margin-left: 10px;
+    }
+
+    .slide {
+        max-height: 140px;
+        max-width: 300px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .stock {
+        width: 110px;
+        font-size: 29px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .swiper {
+        max-width: 312px;
+    }
+}

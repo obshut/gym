@@ -1,0 +1,58 @@
+@media only screen and (max-width: 1000px) {
+
+    .application__img2 {
+        text-align: left;
+    }
+
+    .footer__market {
+        width: 50px;
+        height: 50px;
+        margin-right: 30px;
+    }
+
+    .footer__store {
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .ul li {
+        font-size: 13px;
+    }
+
+    .download p {
+        font-size: 13px;
+    }
+
+}
+
+@media only screen and (max-width: 790px) {
+
+    .footer__div {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .ul li {
+        font-size: 12px;
+    }
+
+    .download p {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+
+    .ul {
+        width: 184px;
+    }
+}
+
+@media only screen and (max-width: 417px) {
+    .footer__div{
+        gap: 30px;
+    }
+}

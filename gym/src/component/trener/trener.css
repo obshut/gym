@@ -1,0 +1,111 @@
+.container__trener {
+    background-color: #002424;
+}
+
+.trener__div {
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    gap: 65px;
+}
+
+p, h2, h3 {
+    color: white;
+}
+
+.trener__photo img {
+    max-width: 340px;
+    border-radius: 24px;
+}
+
+.infa {
+    padding-top: 14px;
+    max-width: 222px;
+    color: #ffffff;
+    font-family: Montserrat, serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22.4px;
+}
+
+.info__trener h2 {
+    height: 58px;
+    color: #ffffff;
+    font-family: "Dela Gothic One", serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 57.92px;
+}
+
+.trener__h2{
+    height: 58px;
+    color: #ffffff;
+    font-family: "Dela Gothic One", serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 57.92px;
+}
+
+.info__trener h3 {
+    padding-top: 28.8px;
+    width: 205px;
+    height: 29px;
+    color: #ffffff;
+    font-family: Montserrat, serif;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 28.38px;
+    text-transform: uppercase;
+}
+
+.about p {
+    padding-top: 13px;
+    width: 675px;
+    color: #ffffff;
+    font-family: Montserrat, serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+}
+
+.calendar__button{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.zapis{
+    text-decoration: none;
+    color: white;
+    font-family: Montserrat, serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 40.4px;
+}
+
+.zapis:hover{
+    color: rgb(117, 116, 116);
+}
+
+@media only screen and (max-width: 860px) {
+    .trener__photo img {
+        max-width: 280px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+    .info__trener h2 {
+        font-size: 30px;
+        height: 50px;
+    }
+
+    .infa {
+        font-size: 15px;
+    }
+
+    .about p {
+        width: 320px;
+        font-size: 15px
+    }
+}
